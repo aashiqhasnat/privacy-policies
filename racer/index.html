@@ -9,13 +9,13 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background-color: #ffffff;
       color: #222222;
-      line-height: 1.6;
+      line-height: 1.65;
       margin: 0;
       padding: 40px 20px;
     }
 
     .container {
-      max-width: 760px;
+      max-width: 780px;
       margin: 0 auto;
     }
 
@@ -105,99 +105,121 @@
   <div class="container">
     <h1>Privacy Policy for Endless Arcade</h1>
     <div class="meta">
-      Last updated: September 7, 2026 &bull; Package: com.arcade.racer
+      <strong>Effective Date:</strong> September 7, 2026 &bull; 
+      <strong>Application:</strong> Endless Arcade &bull; 
+      <strong>Package Name:</strong> com.arcade.racer &bull; 
+      <strong>Developer:</strong> Ashik Hasnat
     </div>
 
     <p>
-      This Privacy Policy describes how <strong>Endless Arcade</strong> ("the App", "we", "us", or "our") handles user data. The App is developed by <strong>Ashik Hasnat</strong> as an offline-first arcade racing game.
+      This Privacy Policy outlines how <strong>Endless Arcade</strong> ("the App", "we", "us", or "our") manages user information. The App is developed by <strong>Ashik Hasnat</strong> as an offline-first arcade racing game for mobile and desktop platforms.
     </p>
 
-    <h2>1. Information Collection and Use</h2>
+    <h2>1. Information Collection and Data Practices</h2>
     <p>
-      We respect your privacy. <strong>Endless Arcade does not collect, transmit, store, or sell any personal identifying information</strong> (such as your name, email address, phone number, contacts, or real-time location).
+      We respect your digital privacy. <strong>Endless Arcade does not collect, record, transmit, store, or sell any personal identifying information (PII)</strong>, such as your real name, email address, phone number, physical address, contacts, or precise GPS location.
     </p>
 
     <table>
       <thead>
         <tr>
           <th>Data Category</th>
-          <th>Collected</th>
-          <th>Storage</th>
-          <th>Purpose</th>
+          <th>Collected by Developer?</th>
+          <th>Storage Location</th>
+          <th>Primary Purpose</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Personal Information</td>
+          <td>Personal Identifiers (Name, Email, Contacts)</td>
           <td>No</td>
           <td>None</td>
-          <td>Not required or requested</td>
+          <td>Not collected or requested</td>
         </tr>
         <tr>
-          <td>Device Location</td>
+          <td>Device Location (GPS / Precise Coordinates)</td>
           <td>No</td>
           <td>None</td>
-          <td>Not required or requested</td>
+          <td>Not collected or required</td>
         </tr>
         <tr>
-          <td>Game Progress (Coins, Scores, Unlocks)</td>
-          <td>Yes</td>
+          <td>Game Progression (Coins, Diamonds, Vehicle Unlocks)</td>
+          <td>Yes (Locally Only)</td>
           <td>Local Device Storage</td>
-          <td>To save your in-game progress locally</td>
+          <td>To save your gameplay progress between game launches</td>
         </tr>
         <tr>
-          <td>Preferences (Audio, Controls)</td>
-          <td>Yes</td>
+          <td>User Preferences (Audio, Steering, Graphics)</td>
+          <td>Yes (Locally Only)</td>
           <td>Local Device Storage</td>
-          <td>To retain your gameplay settings</td>
+          <td>To retain your personalized gameplay settings</td>
         </tr>
       </tbody>
     </table>
 
-    <h2>2. Local Game Storage</h2>
+    <h2>2. Device Permissions Usage</h2>
     <p>
-      All game progression, vehicle unlocks, currency balances, high scores, and audio/control preferences are saved strictly on your local device. This data never leaves your device and is not synchronized to external servers.
-    </p>
-
-    <h2>3. Local Multiplayer (LAN)</h2>
-    <p>
-      The App provides an optional Local Multiplayer feature. When you host or join a local race, communication happens strictly over your local Wi-Fi / local network between participating devices. No data or telemetry is transmitted to any external servers.
-    </p>
-
-    <h2>4. Third-Party Services</h2>
-    <p>
-      The App does not include third-party advertising SDKs, tracking frameworks, or analytics services.
-    </p>
-    <p>
-      If you choose to use optional Google Play Services (such as Google Play Games or Google Play In-App Billing), those services are governed directly by Google's Privacy Policy at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>.
-    </p>
-
-    <h2>5. Children's Privacy</h2>
-    <p>
-      The App does not address anyone under the age of 13 for data collection purposes. We do not knowingly collect personal identifiable information from children.
-    </p>
-
-    <h2>6. Data Deletion and Control</h2>
-    <p>
-      You have full control over your saved data:
+      The App requires minimal system permissions to operate standard gaming features:
     </p>
     <ul>
-      <li>You can reset your game progress at any time inside the game via <em>Settings &rarr; Data &rarr; Reset Progress</em>.</li>
-      <li>You can delete all local data by clearing the app data in your device settings or by uninstalling the application.</li>
+      <li><strong>Vibration / Haptic Feedback (<code>android.permission.VIBRATE</code>):</strong> Used solely to provide tactile vibration feedback during crashes, steering drift, and nitro acceleration.</li>
+      <li><strong>Local Network Access (<code>ACCESS_NETWORK_STATE</code> / <code>INTERNET</code>):</strong> Used exclusively for optional Local Area Network (LAN) peer-to-peer multiplayer racing and future Google Play Services connections.</li>
     </ul>
 
-    <h2>7. Changes to This Privacy Policy</h2>
+    <h2>3. Local Storage & Data Security</h2>
     <p>
-      We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.
+      All game progression, records, currency balances, vehicle customizations, and settings are saved strictly on your local device using standard operating system application sandbox storage. Because no personal data is transferred across the internet to developer servers, your gameplay data remains safe and self-contained on your hardware.
     </p>
 
-    <h2>8. Contact Us</h2>
+    <h2>4. Local Multiplayer (LAN)</h2>
     <p>
-      If you have any questions or suggestions about this Privacy Policy, please contact:
+      The App provides an optional Local Multiplayer mode. When hosting or joining a local multiplayer match:
+    </p>
+    <ul>
+      <li>Direct peer-to-peer socket communication occurs exclusively over your local Wi-Fi or hotspot network.</li>
+      <li>No gameplay, player identification, or network telemetry data is ever transmitted to external cloud servers.</li>
+    </ul>
+
+    <h2>5. Third-Party Services & Google Play</h2>
+    <p>
+      The App does not integrate third-party advertising SDKs, tracking frameworks, or behavioral profiling analytics.
+    </p>
+    <p>
+      If you utilize standard Google Play platform features (such as Google Play Games Achievements or Google Play In-App Billing for diamond packs), transactions and services are handled securely by Google in accordance with the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.
+    </p>
+
+    <h2>6. Children's Privacy (COPPA & GDPR-K Compliance)</h2>
+    <p>
+      The App is designed for players of all ages and is family-friendly. We do not knowingly collect personal identifiable information from children under the age of 13 (or under 16 in the European Union). The game contains no age-inappropriate content, behavioral tracking, or data-sharing mechanisms.
+    </p>
+
+    <h2>7. User Rights, Data Retention & Deletion</h2>
+    <p>
+      Because Endless Arcade does not require user accounts or store data on cloud servers, no account deletion request is necessary. You maintain total control over your local data:
+    </p>
+    <ul>
+      <li><strong>In-Game Reset:</strong> You can purge all saved progression, high scores, and currency balances anytime via <em>Settings &rarr; Data &rarr; Reset Progress</em>.</li>
+      <li><strong>Complete Deletion:</strong> Clearing the App's data/cache in your Android device settings or uninstalling the App permanently deletes all local files immediately.</li>
+    </ul>
+
+    <h2>8. Global Privacy Rights (GDPR & CCPA/CPRA)</h2>
+    <p>
+      Under regulations like the EU General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA/CPRA), users have rights regarding their personal information. Because we do not collect, process, or sell personal data, your rights are inherently respected and protected by default.
+    </p>
+
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>
+      We may periodically update this Privacy Policy to reflect application updates or regulatory changes. Any modifications will be posted directly to this URL with an updated Effective Date.
+    </p>
+
+    <h2>10. Contact Information</h2>
+    <p>
+      If you have any questions, concerns, or requests regarding this Privacy Policy, please contact:
     </p>
     <p>
       <strong>Developer:</strong> Ashik Hasnat<br>
-      <strong>Email:</strong> <a href="mailto:ashikhasnat30@gmail.com">ashikhasnat30@gmail.com</a>
+      <strong>Email:</strong> <a href="mailto:ashikhasnat30@gmail.com">ashikhasnat30@gmail.com</a><br>
+      <strong>GitHub:</strong> <a href="https://github.com/aashiqhasnat" target="_blank" rel="noopener noreferrer">https://github.com/aashiqhasnat</a>
     </p>
 
     <div class="footer">
