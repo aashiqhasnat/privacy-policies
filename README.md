@@ -6,7 +6,7 @@ Official privacy policies for games and applications developed by [Ashik Hasnat]
 
 | Application | Package ID | Policy Link |
 | :--- | :--- | :--- |
-| **Endless Arcade (Racer)** | `com.arcade.racer` | [View Privacy Policy](./racer/index.html) |
+| **Endless Arcade (Racer)** | `com.aashiqhasnat.endlessarcade` | [View Privacy Policy](./racer/index.html) |
 
 ---
 
