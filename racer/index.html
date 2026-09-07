@@ -4,187 +4,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy - Endless Arcade</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --bg: #0f0c1b;
-      --card-bg: #181329;
-      --card-border: #2c2248;
-      --text-main: #f3f0fc;
-      --text-muted: #a39bb8;
-      --accent: #2cd882;
-      --accent-glow: rgba(44, 216, 130, 0.15);
-      --highlight: #ffd966;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
-      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background-color: var(--bg);
-      color: var(--text-main);
-      line-height: 1.65;
-      padding: 32px 16px;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #ffffff;
+      color: #222222;
+      line-height: 1.6;
+      margin: 0;
+      padding: 40px 20px;
     }
 
     .container {
-      max-width: 820px;
-      width: 100%;
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 36px;
-      padding-bottom: 24px;
-      border-bottom: 1px solid var(--card-border);
-    }
-
-    .badge {
-      display: inline-block;
-      background: var(--accent-glow);
-      color: var(--accent);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      padding: 6px 14px;
-      border-radius: 20px;
-      margin-bottom: 12px;
-      border: 1px solid rgba(44, 216, 130, 0.3);
+      max-width: 760px;
+      margin: 0 auto;
     }
 
     h1 {
-      font-size: 32px;
-      font-weight: 800;
+      font-size: 28px;
+      font-weight: 700;
+      color: #111111;
       margin-bottom: 8px;
-      letter-spacing: -0.5px;
     }
 
     .meta {
       font-size: 14px;
-      color: var(--text-muted);
-    }
-
-    .card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 16px;
-      padding: 28px;
+      color: #666666;
       margin-bottom: 24px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e5e5e5;
     }
 
     h2 {
-      font-size: 20px;
-      font-weight: 700;
-      margin-bottom: 14px;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    h2::before {
-      content: "";
-      display: inline-block;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--accent);
-      box-shadow: 0 0 10px var(--accent);
+      font-size: 18px;
+      font-weight: 600;
+      color: #111111;
+      margin-top: 28px;
+      margin-bottom: 10px;
     }
 
     p {
-      color: var(--text-muted);
       margin-bottom: 14px;
       font-size: 15px;
-    }
-
-    p:last-child {
-      margin-bottom: 0;
+      color: #333333;
     }
 
     ul {
-      list-style: none;
-      padding-left: 0;
-      margin-top: 10px;
+      margin-top: 6px;
       margin-bottom: 14px;
+      padding-left: 24px;
     }
 
     li {
-      position: relative;
-      padding-left: 24px;
-      margin-bottom: 10px;
-      font-size: 14.5px;
-      color: var(--text-muted);
-    }
-
-    li::before {
-      content: "✓";
-      position: absolute;
-      left: 0;
-      color: var(--accent);
-      font-weight: bold;
-    }
-
-    .highlight-box {
-      background: rgba(44, 216, 130, 0.06);
-      border-left: 4px solid var(--accent);
-      padding: 16px 20px;
-      border-radius: 0 12px 12px 0;
-      margin: 16px 0;
-    }
-
-    .highlight-box p {
-      color: var(--text-main);
-      font-weight: 500;
+      margin-bottom: 6px;
+      font-size: 15px;
+      color: #333333;
     }
 
     table {
       width: 100%;
       border-collapse: collapse;
-      margin: 16px 0;
+      margin: 18px 0;
       font-size: 14px;
     }
 
     th, td {
-      padding: 12px 14px;
+      border: 1px solid #dddddd;
+      padding: 10px 12px;
       text-align: left;
-      border-bottom: 1px solid var(--card-border);
     }
 
     th {
-      background: rgba(255, 255, 255, 0.03);
-      color: var(--text-main);
+      background-color: #f7f7f8;
+      color: #111111;
       font-weight: 600;
     }
 
     td {
-      color: var(--text-muted);
+      color: #444444;
     }
 
-    footer {
-      text-align: center;
+    .footer {
       margin-top: 40px;
-      padding-top: 24px;
-      border-top: 1px solid var(--card-border);
+      padding-top: 20px;
+      border-top: 1px solid #e5e5e5;
       font-size: 13px;
-      color: var(--text-muted);
+      color: #777777;
     }
 
     a {
-      color: var(--accent);
+      color: #0366d6;
       text-decoration: none;
-      transition: opacity 0.2s;
     }
 
     a:hover {
@@ -194,128 +103,106 @@
 </head>
 <body>
   <div class="container">
-    <header>
-      <div class="badge">Official Legal Document</div>
-      <h1>Privacy Policy</h1>
-      <div class="meta">
-        <strong>Application:</strong> Endless Arcade (Racer) &nbsp;|&nbsp; 
-        <strong>Package ID:</strong> com.arcade.racer &nbsp;|&nbsp; 
-        <strong>Effective Date:</strong> September 7, 2026
-      </div>
-    </header>
-
-    <div class="card">
-      <h2>1. Overview & Commitment</h2>
-      <p>
-        Your privacy is paramount. <strong>Endless Arcade</strong> (referred to as "the Game", "we", "us", or "our") is designed as a self-contained, offline-first mobile and desktop arcade racing game developed by <strong>Ashik Hasnat</strong>.
-      </p>
-      <div class="highlight-box">
-        <p>We do not collect, transmit, sell, or share any personal identifying information (PII). All gameplay data is stored strictly on your local device.</p>
-      </div>
+    <h1>Privacy Policy for Endless Arcade</h1>
+    <div class="meta">
+      Last updated: September 7, 2026 &bull; Package: com.arcade.racer
     </div>
 
-    <div class="card">
-      <h2>2. Information Collection & Storage</h2>
-      <p>Here is an explicit breakdown of how your data is handled:</p>
-      <table>
-        <thead>
-          <tr>
-            <th>Data Type</th>
-            <th>Collected?</th>
-            <th>Storage Location</th>
-            <th>Purpose</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Personal Data</strong> (Name, Email, Phone, Contacts)</td>
-            <td>No</td>
-            <td>None</td>
-            <td>Not collected or requested</td>
-          </tr>
-          <tr>
-            <td><strong>Device Location</strong> (GPS, Precise Coordinates)</td>
-            <td>No</td>
-            <td>None</td>
-            <td>Not collected or required</td>
-          </tr>
-          <tr>
-            <td><strong>Game Progress</strong> (Coins, Diamonds, Unlocked Cars, High Scores)</td>
-            <td>Yes (Locally)</td>
-            <td>Local Device Storage</td>
-            <td>To save your gameplay progress between sessions</td>
-          </tr>
-          <tr>
-            <td><strong>Gameplay Settings</strong> (Audio volume, Controls, Graphics)</td>
-            <td>Yes (Locally)</td>
-            <td>Local Device Storage</td>
-            <td>To retain your personalized preferences</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <p>
+      This Privacy Policy describes how <strong>Endless Arcade</strong> ("the App", "we", "us", or "our") handles user data. The App is developed by <strong>Ashik Hasnat</strong> as an offline-first arcade racing game.
+    </p>
 
-    <div class="card">
-      <h2>3. Multiplayer & Local Network Connections</h2>
-      <p>
-        The game includes an optional Local Multiplayer Mode (LAN). When you host or join a local multiplayer race:
-      </p>
-      <ul>
-        <li>Network communications occur strictly over your local Wi-Fi / Local Area Network (LAN).</li>
-        <li>No gameplay, player identifiers, or network telemetry are ever sent to external cloud servers.</li>
-      </ul>
-    </div>
+    <h2>1. Information Collection and Use</h2>
+    <p>
+      We respect your privacy. <strong>Endless Arcade does not collect, transmit, store, or sell any personal identifying information</strong> (such as your name, email address, phone number, contacts, or real-time location).
+    </p>
 
-    <div class="card">
-      <h2>4. Third-Party Services & Analytics</h2>
-      <p>
-        <strong>Endless Arcade</strong> does not integrate third-party advertising tracking SDKs, behavioral analytics, or location trackers.
-      </p>
-      <p>
-        If Google Play Services (such as Google Play Games Achievements or Google Play Billing for in-app purchases) are utilized, standard transaction and service data are processed securely by Google in accordance with the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.
-      </p>
-    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Data Category</th>
+          <th>Collected</th>
+          <th>Storage</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Personal Information</td>
+          <td>No</td>
+          <td>None</td>
+          <td>Not required or requested</td>
+        </tr>
+        <tr>
+          <td>Device Location</td>
+          <td>No</td>
+          <td>None</td>
+          <td>Not required or requested</td>
+        </tr>
+        <tr>
+          <td>Game Progress (Coins, Scores, Unlocks)</td>
+          <td>Yes</td>
+          <td>Local Device Storage</td>
+          <td>To save your in-game progress locally</td>
+        </tr>
+        <tr>
+          <td>Preferences (Audio, Controls)</td>
+          <td>Yes</td>
+          <td>Local Device Storage</td>
+          <td>To retain your gameplay settings</td>
+        </tr>
+      </tbody>
+    </table>
 
-    <div class="card">
-      <h2>5. Children's Privacy (COPPA Compliance)</h2>
-      <p>
-        Our game is safe for players of all ages. We do not knowingly collect personal identifiable information from children under the age of 13. If you believe any personal data has inadvertently been stored or collected, please contact us immediately so we can assist.
-      </p>
-    </div>
+    <h2>2. Local Game Storage</h2>
+    <p>
+      All game progression, vehicle unlocks, currency balances, high scores, and audio/control preferences are saved strictly on your local device. This data never leaves your device and is not synchronized to external servers.
+    </p>
 
-    <div class="card">
-      <h2>6. Data Retention & Deletion</h2>
-      <p>
-        Because all game state is stored locally on your device, you have complete and total control over your data at all times:
-      </p>
-      <ul>
-        <li><strong>In-Game Reset:</strong> You can reset all game progress, scores, and currency anytime via <em>Settings &rarr; Data &rarr; Reset Progress</em>.</li>
-        <li><strong>Uninstalling / App Data Clear:</strong> Clearing the app storage or uninstalling the game from your device permanently removes all saved files immediately.</li>
-      </ul>
-    </div>
+    <h2>3. Local Multiplayer (LAN)</h2>
+    <p>
+      The App provides an optional Local Multiplayer feature. When you host or join a local race, communication happens strictly over your local Wi-Fi / local network between participating devices. No data or telemetry is transmitted to any external servers.
+    </p>
 
-    <div class="card">
-      <h2>7. Changes to This Privacy Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time to reflect game updates or legal requirements. Any modifications will be posted directly on this page with an updated Effective Date.
-      </p>
-    </div>
+    <h2>4. Third-Party Services</h2>
+    <p>
+      The App does not include third-party advertising SDKs, tracking frameworks, or analytics services.
+    </p>
+    <p>
+      If you choose to use optional Google Play Services (such as Google Play Games or Google Play In-App Billing), those services are governed directly by Google's Privacy Policy at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>.
+    </p>
 
-    <div class="card">
-      <h2>8. Contact Us</h2>
-      <p>
-        If you have any questions, concerns, or feedback regarding this Privacy Policy, please contact:
-      </p>
-      <p>
-        <strong>Developer:</strong> Ashik Hasnat<br>
-        <strong>Email:</strong> <a href="mailto:ashikhasnat30@gmail.com">ashikhasnat30@gmail.com</a><br>
-        <strong>GitHub:</strong> <a href="https://github.com/aashiqhasnat" target="_blank" rel="noopener noreferrer">https://github.com/aashiqhasnat</a>
-      </p>
-    </div>
+    <h2>5. Children's Privacy</h2>
+    <p>
+      The App does not address anyone under the age of 13 for data collection purposes. We do not knowingly collect personal identifiable information from children.
+    </p>
 
-    <footer>
-      &copy; 2026 Ashik Hasnat &middot; Endless Arcade &middot; All Rights Reserved.
-    </footer>
+    <h2>6. Data Deletion and Control</h2>
+    <p>
+      You have full control over your saved data:
+    </p>
+    <ul>
+      <li>You can reset your game progress at any time inside the game via <em>Settings &rarr; Data &rarr; Reset Progress</em>.</li>
+      <li>You can delete all local data by clearing the app data in your device settings or by uninstalling the application.</li>
+    </ul>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>
+      We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.
+    </p>
+
+    <h2>8. Contact Us</h2>
+    <p>
+      If you have any questions or suggestions about this Privacy Policy, please contact:
+    </p>
+    <p>
+      <strong>Developer:</strong> Ashik Hasnat<br>
+      <strong>Email:</strong> <a href="mailto:ashikhasnat30@gmail.com">ashikhasnat30@gmail.com</a>
+    </p>
+
+    <div class="footer">
+      &copy; 2026 Ashik Hasnat. All rights reserved.
+    </div>
   </div>
 </body>
 </html>
