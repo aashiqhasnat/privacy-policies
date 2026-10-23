@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Beacon Browser</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #ffffff;
+      color: #222222;
+      line-height: 1.6;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #111111;
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: #666666;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #111111;
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 12px;
+      font-size: 14.5px;
+      color: #333333;
+    }
+
+    ul {
+      margin-top: 6px;
+      margin-bottom: 12px;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 6px;
+      font-size: 14.5px;
+      color: #333333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      padding: 8px 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f7f7f8;
+      color: #111111;
+      font-weight: 600;
+    }
+
+    td {
+      color: #444444;
+    }
+
+    code {
+      font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+      font-size: 13px;
+      background-color: #f3f4f6;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+
+    .footer {
+      margin-top: 36px;
+      padding-top: 18px;
+      border-top: 1px solid #e5e5e5;
+      font-size: 13px;
+      color: #777777;
+    }
+
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      <strong>Application:</strong> Beacon Browser &bull; 
+      <strong>Package ID:</strong> com.aashiqhasnat.beacon_browser &bull; 
+      <strong>Last Updated:</strong> October 2026
+    </div>
+
+    <p>
+      This Privacy Policy applies to the <strong>Beacon Browser</strong> mobile application developed by <strong>Ashik Hasnat</strong>.
+    </p>
+
+    <h2>1. Privacy-First Architecture &amp; Zero Data Collection</h2>
+    <p>
+      Beacon Browser is built with a strict privacy-first architecture. We do not collect, store, transmit, monetize, or share any personal identifying information (such as your name, email address, phone number, contacts, location, or device identifiers).
+    </p>
+    <ul>
+      <li><strong>No Analytics or Behavioral Trackers:</strong> The application does not embed any third-party analytics frameworks, user profiling SDKs, or behavioral telemetry.</li>
+      <li><strong>No Advertising SDKs:</strong> The application contains no third-party ad networks or banner ads.</li>
+      <li><strong>No Accounts or Cloud Sync:</strong> All browsing functionality is available immediately without registration, logins, or cloud synchronization.</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Data Category</th>
+          <th>Collected / Transmitted</th>
+          <th>Storage Location</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Personal Identification</td>
+          <td>No</td>
+          <td>None</td>
+          <td>Not requested or collected</td>
+        </tr>
+        <tr>
+          <td>Browsing History &amp; Bookmarks</td>
+          <td>No</td>
+          <td>Local Device Sandbox</td>
+          <td>Retained locally for user navigation</td>
+        </tr>
+        <tr>
+          <td>Cookies &amp; Web Cache</td>
+          <td>No</td>
+          <td>Local Device Sandbox</td>
+          <td>Managed by local system WebView; clearable by user</td>
+        </tr>
+        <tr>
+          <td>Downloaded Media &amp; Files</td>
+          <td>No</td>
+          <td>Local Device Storage</td>
+          <td>Saved directly to user device (Scoped MediaStore)</td>
+        </tr>
+        <tr>
+          <td>Diagnostic / Crash Telemetry</td>
+          <td>No</td>
+          <td>None</td>
+          <td>No telemetry SDKs included</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>2. Network Communications &amp; Direct Connection</h2>
+    <p>
+      When navigating web pages, network requests are made directly between your device and the websites you choose to visit. We do not operate proxy servers, intermediate gateways, or inspect/log your traffic. External websites you visit operate under their own independent privacy policies and practices.
+    </p>
+
+    <h2>3. Device Permissions &amp; Hardware Access</h2>
+    <p>
+      Beacon Browser requests only the permissions strictly necessary to perform web browsing, media playback, and user-initiated file downloads:
+    </p>
+    <ul>
+      <li><code>android.permission.INTERNET</code>: Required to browse web pages, stream media, and download files requested by the user.</li>
+      <li><code>android.permission.POST_NOTIFICATIONS</code> (Android 13+): Displays real-time download progress and active media player notification controls.</li>
+      <li><code>android.permission.FOREGROUND_SERVICE</code> (<code>dataSync</code> and <code>mediaPlayback</code>) &amp; <code>RUN_USER_INITIATED_JOBS</code>: Ensures uninterrupted user-initiated file downloads and seamless background audio/video playback with system notification controls.</li>
+      <li><code>READ_MEDIA_VIDEO</code>, <code>READ_MEDIA_AUDIO</code>, <code>READ_MEDIA_IMAGES</code>: Scoped Android MediaStore access used to play downloaded media in the custom player and organize files locally.</li>
+      <li><code>ACCESS_FINE_LOCATION</code> &amp; <code>ACCESS_COARSE_LOCATION</code> (Optional): Disabled by default. Requested only on-demand if a website explicitly asks for location (e.g., interactive maps), requiring explicit user consent per site. Never accessed in the background.</li>
+      <li><code>CAMERA</code> &amp; <code>RECORD_AUDIO</code> (Optional): Disabled by default. Requested only on-demand when a website prompts for camera or microphone access (e.g., WebRTC video calls), requiring explicit user consent.</li>
+    </ul>
+
+    <h2>4. Ad &amp; Tracker Blocking</h2>
+    <p>
+      Beacon Browser includes a built-in content blocker to shield users from aggressive trackers, scripts, and intrusive ads. Blocking rules operate locally on your device against curated filter lists. No browsing telemetry or blocked URL records are reported back to the developer or third parties.
+    </p>
+
+    <h2>5. Data Retention &amp; User Control (Data Deletion)</h2>
+    <p>
+      Because all data is stored exclusively on your device, you have complete control over data deletion at any time:
+    </p>
+    <ul>
+      <li><strong>In-App Clear Data:</strong> You can purge history, cookies, and cache in the app via <strong>Settings &rarr; Clear Browsing Data</strong>.</li>
+      <li><strong>Incognito Mode:</strong> Browsing in Private/Incognito tabs automatically discards cookies, history, and cache once the private session ends.</li>
+      <li><strong>Device Settings / App Removal:</strong> You can delete all local data by clearing the app storage in your Android System Settings or by uninstalling the application.</li>
+    </ul>
+
+    <h2>6. Google Play Policy &amp; Platform Compliance</h2>
+    <p>
+      In strict compliance with Google Play Developer Program Policies and YouTube's Terms of Service:
+    </p>
+    <ul>
+      <li>Downloading, extracting, or saving video or audio streams from <strong>YouTube</strong> or Google-hosted video platforms is strictly blocked and disabled.</li>
+      <li>Beacon Browser functions strictly as a standard web browser on Google-hosted video services.</li>
+      <li>Users are responsible for ensuring they have appropriate rights before downloading content from other authorized third-party sites.</li>
+    </ul>
+
+    <h2>7. Children's Privacy</h2>
+    <p>
+      Beacon Browser is a general-purpose web browser and is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13.
+    </p>
+
+    <h2>8. Changes to This Privacy Policy</h2>
+    <p>
+      We may periodically update this Privacy Policy to reflect application updates or regulatory changes. Any updates will be published on this page with an updated "Last Updated" revision date.
+    </p>
+
+    <h2>9. Contact Information</h2>
+    <p>
+      If you have questions, comments, or inquiries regarding this Privacy Policy, please contact:<br>
+      <strong>Developer:</strong> Ashik Hasnat<br>
+      <strong>Email:</strong> <a href="mailto:ashikhasnat30@gmail.com">ashikhasnat30@gmail.com</a>
+    </p>
+
+    <div class="footer">
+      &copy; 2026 Ashik Hasnat. All rights reserved. &bull; <a href="../">All Privacy Policies</a>
+    </div>
+  </div>
+</body>
+</html>
