@@ -42,6 +42,22 @@
       margin-bottom: 8px;
     }
 
+    h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #222222;
+      margin-top: 16px;
+      margin-bottom: 6px;
+    }
+
+    code {
+      font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+      font-size: 13px;
+      background-color: #f3f4f6;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+
     p {
       margin-bottom: 12px;
       font-size: 14.5px;
@@ -107,92 +123,127 @@
     <div class="meta">
       <strong>Application:</strong> Endless Arcade &bull; 
       <strong>Package ID:</strong> com.aashiqhasnat.endlessarcade &bull; 
-      <strong>Last Updated:</strong> September 7, 2026
+      <strong>Effective Date &amp; Last Updated:</strong> November 22, 2026
     </div>
 
     <p>
-      This Privacy Policy applies to the <strong>Endless Arcade</strong> mobile application.
+      Endless Arcade is an arcade racing and vehicular combat game developed by <strong>Ashik Hasnat</strong> ("we", "us", or "our"). This Privacy Policy explains how information is handled when you play Endless Arcade on Android or Web.
     </p>
 
-    <h2>1. Information Collection and Use</h2>
+    <h2>1. Local-Only Game Storage (No Developer Servers)</h2>
     <p>
-      The application does not collect, transmit, store, or sell any personal identifying information (such as names, email addresses, phone numbers, contacts, or device location).
+      We do <strong>not</strong> operate proprietary user-tracking servers and do <strong>not</strong> directly collect or store your name, email address, phone number, contacts, or personal files.
+    </p>
+    <p>
+      All gameplay progress&mdash;including high scores, unlocked vehicles, upgrades, stage stars, achievements, currency balances, and control settings&mdash;is stored <strong>locally on your device</strong> (using on-device browser/WebView storage and local backups).
     </p>
 
     <table>
       <thead>
         <tr>
           <th>Data Type</th>
-          <th>Collected</th>
-          <th>Storage</th>
+          <th>Collected / Processed</th>
+          <th>Storage / Provider</th>
           <th>Purpose</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Personal Information</td>
+          <td>Personal Information (Name, Email, Contacts)</td>
           <td>No</td>
           <td>None</td>
-          <td>Not required</td>
+          <td>Not requested or collected</td>
         </tr>
         <tr>
-          <td>Device Location</td>
+          <td>Precise GPS Location / Camera / Microphone</td>
           <td>No</td>
           <td>None</td>
-          <td>Not required</td>
+          <td>Not requested or collected</td>
         </tr>
         <tr>
-          <td>Game Progress (Coins, Unlocks, Scores)</td>
-          <td>Yes</td>
+          <td>Game Progress &amp; Settings</td>
+          <td>Yes (Local Only)</td>
           <td>Local Device Storage</td>
-          <td>Saves game progress locally on your device</td>
+          <td>Saves scores, unlocks, upgrades, currency, and preferences locally</td>
         </tr>
         <tr>
-          <td>Settings (Audio, Controls)</td>
-          <td>Yes</td>
-          <td>Local Device Storage</td>
-          <td>Retains user preferences locally</td>
+          <td>Ad &amp; Diagnostic Data (Optional Rewarded Ads)</td>
+          <td>Yes (Optional)</td>
+          <td>Google AdMob</td>
+          <td>Advertising ID, IP-derived approximate location, ad events, and diagnostics for optional rewarded ads</td>
+        </tr>
+        <tr>
+          <td>Purchases &amp; Achievements (Optional)</td>
+          <td>Yes (Optional)</td>
+          <td>Google Play Billing &amp; Play Games</td>
+          <td>Processes optional in-app purchases and syncs achievements</td>
         </tr>
       </tbody>
     </table>
 
-    <h2>2. Device Permissions</h2>
+    <h2>2. Third-Party Services &amp; SDKs</h2>
     <p>
-      The application uses the following device permissions:
+      To support optional rewarded videos, optional in-app purchases, and optional Google Play achievements on Android, Endless Arcade integrates the following Google services. Each service handles data in accordance with Google's Privacy Policy:
+    </p>
+
+    <h3>A. Google AdMob (Optional Rewarded Ads Only)</h3>
+    <p>
+      Endless Arcade does <strong>not</strong> display forced interstitials or banner ads. Players may optionally choose to watch Rewarded Video Ads (for daily/weekly store supply drops, a 1&times; in-run revive, or a 2&times; post-run coin bonus).
     </p>
     <ul>
-      <li><strong>Vibration (<code>android.permission.VIBRATE</code>):</strong> Provides haptic feedback during gameplay.</li>
-      <li><strong>Network Access (<code>ACCESS_NETWORK_STATE</code> / <code>INTERNET</code>):</strong> Used for optional local Wi-Fi multiplayer and Google Play platform services.</li>
+      <li><strong>SDK Used:</strong> Google Mobile Ads SDK (<code>com.google.android.gms:play-services-ads</code>)</li>
+      <li><strong>Data Potentially Processed by Google:</strong> Advertising ID / Device or other IDs, approximate location (IP-derived), ad interaction events, and crash/diagnostic telemetry used for ad delivery, frequency capping, fraud prevention, and measurement.</li>
+      <li><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+      <li><strong>How Google Uses Ad Data:</strong> <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/partner-sites</a></li>
     </ul>
 
-    <h2>3. Data Storage and Security</h2>
+    <h3>B. Google Play Billing (Optional In-App Purchases)</h3>
     <p>
-      All gameplay records, unlocked items, and user settings are stored locally on your device's internal storage. No gameplay data is sent to external developer servers.
+      Optional Diamond packs and Google Play Points redemptions are processed exclusively through Google Play Billing (<code>com.android.billingclient:billing</code>). We never see or store your payment card or billing credentials.
     </p>
 
-    <h2>4. Third-Party Services</h2>
+    <h3>C. Google Play Games Services</h3>
     <p>
-      The application does not integrate third-party advertising SDKs or analytics tracking frameworks. If optional Google Play Services are used, data is processed in accordance with the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.
+      Optional player sign-in and achievement synchronization use Google Play Games Services (<code>com.google.android.gms:play-services-games-v2</code>).
     </p>
 
-    <h2>5. Children's Privacy</h2>
+    <h2>3. Permissions Used (Android)</h2>
+    <ul>
+      <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>, <code>ACCESS_WIFI_STATE</code>: Used to load optional rewarded ads, process optional Google Play Billing purchases, sync Play Games achievements, and open this Privacy Policy.</li>
+      <li><code>com.android.vending.BILLING</code>: Required for optional in-app purchases via Google Play.</li>
+      <li><code>com.google.android.gms.permission.AD_ID</code> (merged via Google Mobile Ads SDK): Used by Google AdMob for optional rewarded ad delivery and fraud prevention.</li>
+      <li><code>VIBRATE</code>: Used for tactile haptic feedback during gameplay (can be toggled off in Settings).</li>
+    </ul>
     <p>
-      The application is suitable for all ages and does not knowingly collect personal information from children under 13 years of age.
+      We do <strong>not</strong> request access to your camera, microphone, precise GPS location, contacts, or external files.
     </p>
 
-    <h2>6. Data Deletion</h2>
+    <h2>4. Children's Privacy</h2>
     <p>
-      Users can delete all locally stored game data at any time by clearing application data in the Android device settings, uninstalling the application, or using the in-game reset option in Settings.
+      Endless Arcade is intended for a general audience (<strong>13 and older</strong> / Teen &amp; General Audiences) and is not directed specifically to children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal data through a third-party service in connection with the app, please contact us at <a href="mailto:ashikhasnat30@gmail.com">ashikhasnat30@gmail.com</a>.
     </p>
 
-    <h2>7. Contact</h2>
+    <h2>5. Your Choices &amp; Data Deletion</h2>
+    <ul>
+      <li><strong>Delete Local Save Data:</strong> You can permanently erase all locally stored game progress at any time via in-game <strong>Settings &rarr; Data &amp; About &rarr; RESET SAVE DATA</strong>, or by clearing the app's storage / uninstalling Endless Arcade on your device.</li>
+      <li><strong>Manage Ad Personalization &amp; Advertising ID:</strong> You can opt out of personalized ads or reset/delete your Advertising ID anytime in Android <strong>Settings &rarr; Google &rarr; Ads</strong> (or <strong>Settings &rarr; Privacy &rarr; Ads</strong>).</li>
+      <li><strong>Play Offline:</strong> Core gameplay modes remain playable offline without watching ads or making purchases.</li>
+    </ul>
+
+    <h2>6. Changes to This Policy</h2>
     <p>
-      If you have questions regarding this Privacy Policy, please contact:<br>
+      We may update this Privacy Policy as new features or SDKs are added. Any updates will be reflected by the "Last Updated" date above and published at <a href="https://aashiqhasnat.github.io/privacy-policies/racer/">https://aashiqhasnat.github.io/privacy-policies/racer/</a>.
+    </p>
+
+    <h2>7. Contact Us</h2>
+    <p>
+      If you have questions or privacy requests, please contact:<br>
+      <strong>Developer:</strong> Ashik Hasnat<br>
       <strong>Email:</strong> <a href="mailto:ashikhasnat30@gmail.com">ashikhasnat30@gmail.com</a>
     </p>
 
     <div class="footer">
-      &copy; 2026 Ashik Hasnat. All rights reserved.
+      &copy; 2026 Ashik Hasnat. All rights reserved. &bull; <a href="../">All Privacy Policies</a>
     </div>
   </div>
 </body>
